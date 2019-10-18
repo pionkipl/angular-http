@@ -8,7 +8,8 @@ import { HttpClientModule } from '@angular/common/http';
 import { YoutubeSearchComponent } from './youtube-search/youtube-search.component';
 import { youtubeSearchInjectables } from './youtube-search/youtube-search.injectables';
 import { SearchBoxComponent } from './youtube-search/search-box.component';
-import { SearchResultComponent } from './youtube-search/search-result.component'
+import { SearchResultComponent } from './youtube-search/search-result.component';
+import { MoreHttpRequestsComponent } from './more-http-requests/more-http-requests.component'
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { SearchResultComponent } from './youtube-search/search-result.component'
     SimpleHttpComponent,
     YoutubeSearchComponent,
     SearchBoxComponent,
-    SearchResultComponent
+    SearchResultComponent,
+    MoreHttpRequestsComponent
   ],
   imports: [
     BrowserModule,
